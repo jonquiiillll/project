@@ -456,8 +456,8 @@ p {
 }
 .fixed {
     position: fixed;
-    top: -10%;
-    left: 40%;
+    top: -250px;
+    left: 800px;
     width: 70%;
     height: 70%;
     transform: rotate(-30deg);
@@ -469,7 +469,7 @@ p {
     animation-fill-mode: both;
 }
 @keyframes botle_shadow {
-    0% {opacity: 0; transform: rotate(0deg);}
+    0% {opacity: 0;}
     50% {opacity: 1;}
     100% {opacity: 1;}
 }
